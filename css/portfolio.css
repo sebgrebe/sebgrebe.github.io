@@ -21,22 +21,22 @@ html, body {
     opacity: 0.5;
     top: 0;
     height: auto;
-    width: 100%; 
+    width: 125%; 
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 840px) {
 .about img {
     position: absolute;
     height: 100vh;
     opacity: 0.5;
     width: auto;
-    left: calc((999px - 100%)/-3);
+    left: calc((840px - 100%)/-3);
   }
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 840px) {
   .about_text {
     display: inline-block;
     position: relative;
@@ -47,7 +47,7 @@ html, body {
   }
 }
 
-@media (min-width: 720px) and (max-width: 999px) {
+@media (min-width: 720px) and (max-width: 840px) {
   .about_text {
     display: inline-block;
     position: relative;
@@ -62,8 +62,8 @@ html, body {
   .about_text {
     position: relative;
     display: inline-block;
-    font-size: 130%;
-    margin-top: 65vh;
+    font-size: 120%;
+    margin-top: 60vh;
     text-align: center; 
     color: yellow;
   }
