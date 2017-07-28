@@ -36,12 +36,23 @@ html, body {
 }
 
 
-@media (min-width: 720px) {
+@media (min-width: 1200px) {
   .about_text {
     display: inline-block;
     position: relative;
     font-size: 160%;
-    margin-top: 65vh;
+    margin-top: 75vh;
+    text-align: center;
+    color: yellow;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1199px) {
+  .about_text {
+    display: inline-block;
+    position: relative;
+    font-size: 160%;
+    margin-top: 70vh;
     text-align: center;
     color: yellow;
   }
@@ -52,8 +63,7 @@ html, body {
     position: relative;
     display: inline-block;
     font-size: 130%;
-    font-weight: bold;
-    margin-top: 60vh;
+    margin-top: 65vh;
     text-align: center; 
     color: yellow;
   }
