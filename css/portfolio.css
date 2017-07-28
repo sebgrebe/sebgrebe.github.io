@@ -21,7 +21,7 @@ html, body {
       height: 100vh;
       width: auto;
       left: calc((1500px - 100vw)/-2);
-      right: calc((1500px - 100vw)/-2);;    
+      right: calc((1500px - 100vw)/-2);    
 }
 
 
@@ -44,7 +44,6 @@ html, body {
     margin-top: 70vh;
     text-align: center;
     color: white;
-  }
 }
 
 .portfolio_box {
