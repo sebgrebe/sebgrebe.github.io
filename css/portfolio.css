@@ -20,8 +20,7 @@ html, body {
       position: absolute;
       height: 100vh;
       width: auto;
-      left: calc((1500px - 100vw)/-2);
-      right: calc((1500px - 100vw)/-2);    
+      left: calc((1200px - 100vw)/-2);
 }
 
 
