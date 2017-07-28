@@ -19,7 +19,6 @@ html, body {
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
     height: auto;
     width: 100%; 
   }
@@ -51,8 +50,8 @@ html, body {
   .about_text {
     position: relative;
     display: inline-block;
-    font-size: 125%;
-    margin-top: 70vh;
+    font-size: 120%;
+    margin-top: 65vh;
     text-align: center; 
     color: white;
   }
