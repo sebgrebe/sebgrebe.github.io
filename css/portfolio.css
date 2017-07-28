@@ -23,7 +23,6 @@ html, body {
       left: calc((1300px - 100vw)/-2);
 }
 
-
 @media (min-width: 840px) {
   .about_text {
     display: inline-block;
@@ -43,6 +42,7 @@ html, body {
     margin-top: 70vh;
     text-align: center;
     color: white;
+}
 }
 
 .portfolio_box {
