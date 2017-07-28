@@ -28,7 +28,7 @@ html, body {
 @media (max-width: 1099px) {
 .about img {
     position: absolute;
-    top: 0;
+    top: 100px;
     height: 100%;
     width: auto;
     left: calc((1099px - 100%)/-2);
