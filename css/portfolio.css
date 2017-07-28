@@ -28,31 +28,20 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 150%;
-    margin-top: 10vh;
+    font-size: 170%;
+    margin-top: 35vh;
     text-align: center;
     color: yellow;
   }
 }
 
-@media (min-width: 720px) and (max-width: 840px) {
+@media (max-width: 839px) {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 150%;
-    margin-top: 10vh;
+    font-size: 130%;
+    margin-top: 35vh;
     text-align: center;
-    color: yellow;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 719px) {
-  .about_text {
-    position: relative;
-    display: inline-block;
-    font-size: 120%;
-    margin-top: 10vh;
-    text-align: center; 
     color: yellow;
   }
 }
