@@ -26,7 +26,7 @@ html, body {
       left: -9999px;
       right: -9999px;
       margin: auto;
-      opacity: 0.8;
+      opacity: 0.9;
 }
 
 @media (min-width: 840px) {
@@ -34,8 +34,11 @@ html, body {
     display: inline-block;
     position: relative;
     font-size: 170%;
-    margin-top: 70vh;
+    margin-top: 60vh;
     text-align: center;
+    opacity: 0.8;
+    background-color: #202020;
+    border-radius: 25px;
     color: yellow;
   }
 }
@@ -44,9 +47,12 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 125%;
-    margin-top: 70vh;
+    font-size: 120%;
+    margin-top: 60vh;
     text-align: center;
+    background-color: #202020;
+    opacity: 0.8;
+    border-radius: 25px;
     color: yellow;
 }
 }
