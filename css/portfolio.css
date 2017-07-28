@@ -40,7 +40,7 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 150%;
+    font-size: 160%;
     margin-top: 65vh;
     text-align: center;
     color: white;
@@ -51,7 +51,7 @@ html, body {
   .about_text {
     position: relative;
     display: inline-block;
-    font-size: 120%;
+    font-size: 130%;
     margin-top: 50vh;
     text-align: center; 
     color: white;
