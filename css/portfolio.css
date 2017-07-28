@@ -20,8 +20,8 @@ html, body {
     position: absolute;
     opacity: 0.6;
     top: 0;
-    height: 100vh;
-    width: auto; 
+    height: auto;
+    width: 100%; 
   }
 }
 
@@ -52,7 +52,7 @@ html, body {
     position: relative;
     display: inline-block;
     font-size: 130%;
-    margin-top: 50vh;
+    margin-top: 55vh;
     text-align: center; 
     color: white;
   }
