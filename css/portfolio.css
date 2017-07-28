@@ -5,7 +5,7 @@ html, body {
 
 }
 
-.container {
+.container-fluid {
   margin: 0;
   padding: 0;
 }
@@ -13,6 +13,7 @@ html, body {
 .about {
   height: 100vh; 
   position: relative;
+  overflow: hidden;
 }
 
 
@@ -20,7 +21,12 @@ html, body {
       position: absolute;
       height: 100vh;
       width: auto;
-      left: calc((1300px - 100vw)/-2);
+      top: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      right: -9999px;
+      margin: auto;
+      opacity: 0.8;
 }
 
 @media (min-width: 840px) {
@@ -30,7 +36,7 @@ html, body {
     font-size: 170%;
     margin-top: 70vh;
     text-align: center;
-    color: white;
+    color: yellow;
   }
 }
 
@@ -38,10 +44,10 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 140%;
+    font-size: 125%;
     margin-top: 70vh;
     text-align: center;
-    color: white;
+    color: yellow;
 }
 }
 
