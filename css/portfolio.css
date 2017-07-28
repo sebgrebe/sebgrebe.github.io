@@ -17,8 +17,8 @@ html, body {
 
 .about img {
     position: absolute;
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 100%;
   }
 
 
