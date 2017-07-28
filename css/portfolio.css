@@ -18,7 +18,6 @@ html, body {
   .about img {
     display: block;
     position: absolute;
-    opacity: 0.5;
     top: 0;
     height: auto;
     width: 125%; 
@@ -29,7 +28,6 @@ html, body {
 .about img {
     position: absolute;
     height: 100vh;
-    opacity: 0.5;
     width: auto;
     left: calc((840px - 100%)/-3);
   }
@@ -40,8 +38,8 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 160%;
-    margin-top: 77vh;
+    font-size: 150%;
+    margin-top: 10vh;
     text-align: center;
     color: yellow;
   }
@@ -51,8 +49,8 @@ html, body {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 160%;
-    margin-top: 70vh;
+    font-size: 150%;
+    margin-top: 10vh;
     text-align: center;
     color: yellow;
   }
@@ -63,7 +61,7 @@ html, body {
     position: relative;
     display: inline-block;
     font-size: 120%;
-    margin-top: 60vh;
+    margin-top: 10vh;
     text-align: center; 
     color: yellow;
   }
