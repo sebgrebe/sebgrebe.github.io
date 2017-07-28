@@ -48,7 +48,9 @@ html, body {
     display: inline-block;
     position: relative;
     font-size: 120%;
-    margin-top: 60vh;
+    margin-top: 55vh;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
     background-color: #202020;
     opacity: 0.8;
