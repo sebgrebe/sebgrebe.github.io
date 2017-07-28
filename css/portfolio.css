@@ -18,7 +18,9 @@ html, body {
 .about img {
     position: absolute;
     height: auto;
-    width: 100%;
+    width: 1500px;
+    left: calc((1500px - 100%)/-3);
+    opacity: 0.3;
   }
 
 
