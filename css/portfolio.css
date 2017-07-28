@@ -1,10 +1,11 @@
+
 html, body {
   margin: 0px;
   padding: 0px;
 
 }
 
-.container-fluid {
+.container {
   margin: 0;
   padding: 0;
 }
@@ -14,44 +15,34 @@ html, body {
   position: relative;
 }
 
-@media screen and (min-width: 800px) {
-  .about img {
-    display: block;
-    position: absolute;
-    top: 0;
-    height: auto;
-    width: 100%; 
-  }
-}
 
-@media screen and (max-width: 799px) {
 .about img {
-    position: absolute;
-    height: 100%;
-    width: auto;
-    left: calc((1099px - 100%)/-2);
-  }
+      position: absolute;
+      height: 100vh;
+      width: auto;
+      left: calc((1500px - 100vw)/-2);
+      right: calc((1500px - 100vw)/-2);;    
 }
 
 
-@media (min-width: 720px) {
+@media (min-width: 840px) {
   .about_text {
     display: inline-block;
     position: relative;
-    font-size: 150%;
-    margin-top: 75vh;
+    font-size: 170%;
+    margin-top: 70vh;
     text-align: center;
     color: white;
   }
 }
 
-@media (min-width: 0px) and (max-width: 719px) {
+@media (max-width: 839px) {
   .about_text {
-    position: relative;
     display: inline-block;
-    font-size: 120%;
-    margin-top: 65vh;
-    text-align: center; 
+    position: relative;
+    font-size: 140%;
+    margin-top: 70vh;
+    text-align: center;
     color: white;
   }
 }
@@ -107,10 +98,3 @@ html, body {
 .linkedin {
   color: 0077B5;
 }
-
-
-
-
-
-
-
